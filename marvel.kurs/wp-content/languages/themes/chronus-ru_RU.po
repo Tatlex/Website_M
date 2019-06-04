@@ -1,0 +1,511 @@
+# Translation of Themes - Chronus in Russian
+# This file is distributed under the same license as the Themes - Chronus package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-02-04 17:55:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Chronus\n"
+
+#. Description of the plugin/theme
+msgid "Chronus is a fast and lightweight WordPress Theme created for magazines, news websites and personal blogs. The Featured Content section and flexible Magazine Widgets give you the ability to highlight your most important posts on the home page. The minimalistic and responsive design focuses on your content and looks great on any screen size."
+msgstr "Chronus -- это быстрая и легковесная тема, созданная для журналов, новостных сайтов и персональных блогов. Секция закреплённого контента и гибкие журнальные виджеты дают возможность выделять ваши самые важные записи. Минималистичный и адаптивный дизайн позволит вашему сайты выглядеть отлично на экранах любого размера."
+
+#. Theme Name of the plugin/theme
+msgid "Chronus"
+msgstr "Chronus"
+
+#: inc/customizer/sections/customizer-blog.php:150
+msgid "Display Magazine widgets on blog index"
+msgstr "Отобразить журнальные виджеты на главной странице"
+
+#: inc/customizer/sections/customizer-blog.php:134
+msgid "Magazine Widgets"
+msgstr "Журнальные виджеты"
+
+#. Template Name of the plugin/theme
+msgid "Full-width Layout"
+msgstr "Вёрстка на всю ширину"
+
+#. Template Name of the plugin/theme
+msgid "Centered Layout"
+msgstr "По центру"
+
+#: template-parts/content-page.php:25 template-parts/content-single.php:27
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: template-parts/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Похоже, нет того, что вы хотели. Попробуйте поиск."
+
+#: template-parts/content-none.php:27
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, ничего не найдено по этому запросу. Попробуйте другие слова."
+
+#: template-parts/content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать первый пост? <a href=\"%1$s\">Начинайте!</a>"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: searchform.php:20
+msgctxt "submit button"
+msgid "Search"
+msgstr "Искать"
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Поиск &hellip;"
+
+#: searchform.php:12 searchform.php:16
+msgctxt "label"
+msgid "Search for:"
+msgstr "Искать:"
+
+#: search.php:20
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: inc/widgets/widget-magazine-posts-grid.php:223
+msgid "Three Columns Grid"
+msgstr "Вёрстка на три колонки"
+
+#: inc/widgets/widget-magazine-posts-grid.php:222
+msgid "Two Columns Grid"
+msgstr "Вёрстка на две колонки"
+
+#: inc/widgets/widget-magazine-posts-grid.php:220
+msgid "Grid Layout:"
+msgstr "Вёрстка:"
+
+#: inc/widgets/widget-magazine-posts-grid.php:205
+msgid "Category:"
+msgstr "Рубрика:"
+
+#: inc/widgets/widget-magazine-posts-grid.php:199
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: inc/widgets/widget-magazine-posts-grid.php:27
+msgid "Displays your posts from a selected category in a grid layout."
+msgstr "Показывает ваши записи из выбранной рубрики в вёрстке."
+
+#: inc/widgets/widget-magazine-posts-grid.php:24
+#: inc/widgets/widget-magazine-posts-grid.php:39
+msgid "Magazine (Grid)"
+msgstr "Журнал сеткой"
+
+#: inc/widgets/widget-magazine-posts-columns.php:298
+msgid "Highlight first post (big image + excerpt)"
+msgstr "Выделить первую запись (большое изображение и анонс)"
+
+#: inc/widgets/widget-magazine-posts-columns.php:290
+#: inc/widgets/widget-magazine-posts-grid.php:228
+msgid "Number of posts:"
+msgstr "Число записей:"
+
+#: inc/widgets/widget-magazine-posts-columns.php:275
+msgid "Right Category:"
+msgstr "Рубрика справа:"
+
+#: inc/widgets/widget-magazine-posts-columns.php:269
+msgid "Right Category Title:"
+msgstr "Заголовок рубрики справа"
+
+#: inc/widgets/widget-magazine-posts-columns.php:254
+msgid "Left Category:"
+msgstr "Рубрика слева:"
+
+#: inc/widgets/widget-magazine-posts-columns.php:248
+msgid "Left Category Title:"
+msgstr "Заголовок рубрики слева:"
+
+#: inc/widgets/widget-magazine-posts-columns.php:42
+msgid "Right Category"
+msgstr "Рубрика справа"
+
+#: inc/widgets/widget-magazine-posts-columns.php:41
+msgid "Left Category"
+msgstr "Рубрика слева"
+
+#: inc/widgets/widget-magazine-posts-columns.php:27
+msgid "Displays your posts from two selected categories."
+msgstr "Отображать записи из двух выбранных категорий."
+
+#: inc/widgets/widget-magazine-posts-columns.php:24
+msgid "Magazine (Columns)"
+msgstr "Журнал колонками"
+
+#: inc/theme-info.php:152
+msgid "rate it"
+msgstr "проголосуйте"
+
+#: inc/theme-info.php:152
+msgid "Review Chronus"
+msgstr "Обзор Chronus"
+
+#: inc/theme-info.php:151
+msgid "https://themezee.com/"
+msgstr "https://themezee.com/"
+
+#: inc/theme-info.php:149
+msgid "%1$s is proudly brought to you by %2$s. If you like this theme, %3$s :)"
+msgstr "%2$s с гордостью представляет вам %1$s. Если вам понравилась тема, %3$s :)"
+
+#: inc/theme-info.php:103
+msgid "Get more features"
+msgstr "Больше возможностей"
+
+#: inc/theme-info.php:83
+msgid "Customize Theme"
+msgstr "Настроить тему"
+
+#: inc/theme-info.php:80
+msgid "%s makes use of the Customizer for all theme settings. Click on \"Customize Theme\" to open the Customizer now."
+msgstr "%s позволяет изменить любые настройки. Нажмите на \"Настроить тему\", чтобы открыть мастер изменений."
+
+#: inc/theme-info.php:71
+msgid "View %s Documentation"
+msgstr "Документация на %s"
+
+#: inc/theme-info.php:67
+msgid "You need help to setup and configure this theme? We got you covered with an extensive theme documentation on our website."
+msgstr "Нужна помощь в установке и настройке темы? Расширенная документация на нашем сайте."
+
+#: inc/theme-info.php:57
+msgid "Getting Started with %s"
+msgstr "Начните с %s"
+
+#: inc/theme-info.php:20
+msgid "Theme Info"
+msgstr "О теме"
+
+#: inc/theme-info.php:19 inc/theme-info.php:40
+msgid "Welcome to %1$s %2$s"
+msgstr "Добро пожаловать в %1$s %2$s"
+
+#: inc/template-tags.php:394
+msgid "http://wordpress.org"
+msgstr "http://wordpress.org"
+
+#: inc/template-tags.php:393
+msgid "Powered by %1$s and %2$s."
+msgstr "Создано при помощи %1$s и %2$s."
+
+#: inc/template-tags.php:379
+msgctxt "pagination"
+msgid "Next Posts"
+msgstr "След. записи"
+
+#: inc/template-tags.php:378
+msgctxt "pagination"
+msgid "Previous Posts"
+msgstr "Пред. записи"
+
+#: inc/template-tags.php:325
+msgctxt "post navigation"
+msgid "Next Post"
+msgstr "След. запись"
+
+#: inc/template-tags.php:324
+msgctxt "post navigation"
+msgid "Previous Post"
+msgstr "Пред. запись"
+
+#: inc/template-tags.php:284
+msgid "Leave a comment"
+msgstr "оставить комментарий"
+
+#: inc/template-tags.php:257
+msgid "Tagged with "
+msgstr "Метки:"
+
+#: inc/template-tags.php:243
+msgctxt "post category"
+msgid "In %s"
+msgstr "Из: %s"
+
+#: inc/template-tags.php:226
+msgctxt "post author"
+msgid "By %s"
+msgstr "От: %s"
+
+#: inc/template-tags.php:222
+msgid "View all posts by %s"
+msgstr "Все записи от: %s"
+
+#: inc/template-tags.php:207
+msgctxt "post date"
+msgid "On %s"
+msgstr "%s"
+
+#: inc/magazine.php:65
+msgid "View all posts from category %s"
+msgstr "Все записи рубрики %s"
+
+#: inc/magazine.php:44
+msgid "Please go to Customize &#8594; Widgets and add at least one widget to the Magazine Homepage widget area."
+msgstr "Перейдите в Настройки &#8594; Виджеты и добавьте хотя бы один виджет на главную страницу журнала."
+
+#: inc/customizer/sections/customizer-upgrade.php:19
+msgid "More Features"
+msgstr "Больше возможностей"
+
+#: inc/customizer/sections/customizer-post.php:165
+msgid "Display image on single posts"
+msgstr "Показывать изображение для отдельных записей"
+
+#: inc/customizer/sections/customizer-post.php:143
+msgid "Display images on blog and archives"
+msgstr "Показывать изображения на странице блога и в архивах"
+
+#: inc/customizer/sections/customizer-post.php:127
+msgid "Featured Images"
+msgstr "Изображения записи"
+
+#: inc/customizer/sections/customizer-post.php:117
+msgid "Display previous/next post navigation"
+msgstr "Показывать навигацию \"Пред./След.\""
+
+#: inc/customizer/sections/customizer-post.php:101
+msgid "Display tags"
+msgstr "Отображать метки"
+
+#: inc/customizer/sections/customizer-post.php:85
+msgid "Single Post"
+msgstr "Отдельная запись"
+
+#: inc/customizer/sections/customizer-post.php:75
+msgid "Display categories"
+msgstr "Показать рубрики"
+
+#: inc/customizer/sections/customizer-post.php:59
+msgid "Display author"
+msgstr "Показать автора"
+
+#: inc/customizer/sections/customizer-post.php:43
+msgid "Display date"
+msgstr "Показать дату"
+
+#: inc/customizer/sections/customizer-post.php:27
+msgid "Post Details"
+msgstr "Свойства записи"
+
+#: inc/customizer/sections/customizer-post.php:19
+msgid "Post Settings"
+msgstr "Настройки записи"
+
+#: inc/customizer/sections/customizer-layout.php:40
+msgid "Right Sidebar"
+msgstr "Правая панель виджетов"
+
+#: inc/customizer/sections/customizer-layout.php:39
+msgid "Left Sidebar"
+msgstr "Левая панель виджетов"
+
+#: inc/customizer/sections/customizer-layout.php:33
+msgid "Sidebar Position"
+msgstr "Расположение области виджетов"
+
+#: inc/customizer/sections/customizer-layout.php:19
+msgid "Layout Settings"
+msgstr "Настройки вёрстки"
+
+#: inc/customizer/sections/customizer-featured.php:59
+msgid "Featured Posts Category"
+msgstr "Рубрика закреплённых записей"
+
+#: inc/customizer/sections/customizer-featured.php:42
+msgid "Show Featured Posts on home page"
+msgstr "Показывать закреплённые записи на главной странице"
+
+#: inc/customizer/sections/customizer-featured.php:27
+msgid "Activate Featured Posts"
+msgstr "Включить закреплённые записи"
+
+#: inc/customizer/sections/customizer-featured.php:19
+msgid "Featured Posts"
+msgstr "Закреплённые записи"
+
+#: inc/customizer/sections/customizer-blog.php:97
+msgid "Excerpt Length"
+msgstr "Длина анонса"
+
+#: inc/customizer/sections/customizer-blog.php:84
+msgid "Display post excerpts"
+msgstr "Показывать анонс записи"
+
+#: inc/customizer/sections/customizer-blog.php:83
+msgid "Display full posts"
+msgstr "Показать запись целиком"
+
+#: inc/customizer/sections/customizer-blog.php:77
+msgid "Blog Layout"
+msgstr "Макет блога"
+
+#: inc/customizer/sections/customizer-blog.php:55
+msgid "Blog Description"
+msgstr "Описание блога"
+
+#: inc/customizer/sections/customizer-blog.php:33
+msgid "Blog Title"
+msgstr "Заголовок блога"
+
+#: inc/customizer/sections/customizer-blog.php:19
+msgid "Blog Settings"
+msgstr "Настройки блога"
+
+#: inc/customizer/customizer.php:168 inc/theme-info.php:50
+msgid "Rate this theme"
+msgstr "Оцените эту тему"
+
+#: inc/customizer/customizer.php:167 inc/theme-info.php:50
+#: inc/theme-info.php:152
+msgid "https://wordpress.org/support/theme/chronus/reviews/?filter=5"
+msgstr "https://wordpress.org/support/theme/chronus/reviews/?filter=5"
+
+#: inc/customizer/customizer.php:162 inc/theme-info.php:49
+#: inc/theme-info.php:64
+msgid "Theme Documentation"
+msgstr "Документация темы"
+
+#: inc/customizer/customizer.php:161 inc/theme-info.php:49
+#: inc/theme-info.php:70
+msgid "https://themezee.com/docs/chronus-documentation/"
+msgstr "https://themezee.com/docs/chronus-documentation/"
+
+#: inc/customizer/customizer.php:156 inc/theme-info.php:48
+msgid "Theme Demo"
+msgstr "Демонстрация темы"
+
+#: inc/customizer/customizer.php:150 inc/theme-info.php:47
+msgid "Theme Page"
+msgstr "Страница темы"
+
+#. #-#-#-#-#  chronus.pot (Chronus 1.4)  #-#-#-#-#
+#. Theme URI of the plugin/theme
+#: inc/customizer/customizer.php:149 inc/theme-info.php:47
+msgid "https://themezee.com/themes/chronus/"
+msgstr "https://themezee.com/themes/chronus/"
+
+#: inc/customizer/customizer.php:146 inc/theme-info.php:46
+msgid "Theme Links"
+msgstr "Ссылки темы"
+
+#: inc/customizer/customizer.php:84
+msgid "Display Tagline"
+msgstr "Отображать описание"
+
+#: inc/customizer/customizer.php:68
+msgid "Display Site Title"
+msgstr "Отображать заголовок сайта"
+
+#: inc/customizer/customizer.php:43
+msgid "Background"
+msgstr "Фон"
+
+#: inc/customizer/customizer.php:37 inc/theme-info.php:77
+msgid "Theme Options"
+msgstr "Настройки темы"
+
+#: inc/customizer/controls/upgrade-control.php:49 inc/theme-info.php:134
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+#: inc/customizer/controls/upgrade-control.php:44 inc/theme-info.php:130
+msgid "Extend the functionality of your WordPress website with our free and easy to use plugins."
+msgstr "Расширить функционал сайта с помощью бесплатных и простых в использовании плагинов."
+
+#: inc/customizer/controls/upgrade-control.php:41 inc/theme-info.php:127
+msgid "Recommended Plugins"
+msgstr "Рекомендуемые плагины"
+
+#: inc/customizer/controls/upgrade-control.php:33 inc/theme-info.php:117
+msgid "Learn more about %s Pro"
+msgstr "Узнайте больше о %s Pro"
+
+#: inc/customizer/controls/upgrade-control.php:32 inc/theme-info.php:116
+msgid "https://themezee.com/addons/chronus-pro/"
+msgstr "https://themezee.com/addons/chronus-pro/"
+
+#: inc/customizer/controls/upgrade-control.php:28 inc/theme-info.php:113
+msgid "Purchase the %s Pro Add-on and get additional features and advanced customization options."
+msgstr "Купите %s Pro и получите дополнительную функциональность и расширенные возможности настройки."
+
+#: inc/customizer/controls/upgrade-control.php:25 inc/theme-info.php:110
+msgid "Pro Version Add-on"
+msgstr "Pro Version Add-on"
+
+#: inc/customizer/controls/magazine-widget-area-control.php:33
+#: inc/customizer/sections/customizer-magazine.php:51
+msgid "Add Magazine Widget"
+msgstr "Добавить виджет журнала"
+
+#: inc/customizer/controls/category-dropdown-control.php:31
+#: inc/widgets/widget-magazine-posts-columns.php:257
+#: inc/widgets/widget-magazine-posts-columns.php:278
+#: inc/widgets/widget-magazine-posts-grid.php:208
+msgid "All Categories"
+msgstr "Все категории"
+
+#: inc/back-compat.php:42 inc/back-compat.php:52 inc/back-compat.php:65
+msgid "%1$s requires at least WordPress version %2$s. You are running version %3$s. Please upgrade and try again."
+msgstr "%1$s требует версию WordPress не ниже %2$s. У вас версия %3$s. Обновитесь и попробуйте ещё раз."
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Перейти к содержанию"
+
+#: functions.php:145
+msgid "Menu"
+msgstr "Меню"
+
+#. #-#-#-#-#  chronus.pot (Chronus 1.4)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: functions.php:117
+msgid "Magazine Homepage"
+msgstr "Главная страница журнала"
+
+#: functions.php:107
+msgid "Sidebar"
+msgstr "Область виджетов"
+
+#: functions.php:44
+msgid "Main Navigation"
+msgstr "Главная навигация"
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: comments.php:30 inc/template-tags.php:284
+msgid "% comments"
+msgstr "% комментариев"
+
+#: comments.php:30 inc/template-tags.php:284
+msgid "One comment"
+msgstr "1 комментарий"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search or one of the links below?"
+msgstr "На этом месте ничего нет. Воспользуйтесь поиском или любой ссылкой ниже."
+
+#: 404.php:17
+msgid "404: Page not found"
+msgstr "404: Страница не найдена"
+
+#. Author URI of the plugin/theme
+msgid "https://themezee.com"
+msgstr "https://themezee.com"
+
+#. Author of the plugin/theme
+msgid "ThemeZee"
+msgstr "ThemeZee"
